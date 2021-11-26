@@ -26,7 +26,7 @@ RSpec.feature 'Home', type: :feature do
     expect(page).to have_current_path(category_path(category))
   end
 
-  scenario 'There is an "Add a new category" button' do
+  scenario 'There is an "Add  a new category" button' do
     visit root_path
     click_link 'Add a new category'
     expect(page).to have_current_path(new_category_path)
