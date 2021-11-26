@@ -3,6 +3,7 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
 > A mobile web application where you can manage your budget
+![image](https://user-images.githubusercontent.com/57562869/143658044-3f0d738f-04f9-4320-b2ba-5d22129b9456.png)
 
 
 A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
