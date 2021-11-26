@@ -15,7 +15,7 @@ RSpec.feature 'Transactions', type: :feature do
     end
   end
 
-  scenario 'User could see the total amount for the category' do
+  scenario 'User could see  the total amount for the category' do
     visit category_path(@category)
     expect(page).to have_content @category.total_amount
   end
