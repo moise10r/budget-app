@@ -5,7 +5,7 @@ RSpec.feature 'Signin', type: :feature do
     @user = FactoryBot.create(:user, password: '12345678')
   end
 
-  scenario 'Signing in with correct credentials' do
+  scenario 'Signing in  with correct credentials' do
     visit new_user_session_path
     within 'form' do
       fill_in 'Email', with: @user.email
