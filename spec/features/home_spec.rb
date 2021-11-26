@@ -11,7 +11,7 @@ RSpec.feature 'Home', type: :feature do
     expect(page).to have_content 'Categories'
   end
 
-  scenario 'For each category, user can see name, icon, and total amount that belongs to a category' do
+  scenario 'For each category; user can see name, icon, and total amount that belongs to a category' do
     visit root_path
     @user.categories.each do |category|
       expect(page).to have_content category.name
