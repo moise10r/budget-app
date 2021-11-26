@@ -19,7 +19,7 @@ RSpec.feature 'Home', type: :feature do
     end
   end
 
-  scenario 'Clicking a category item navigates to the transaction page' do
+  scenario 'Clicking a category item navigate to the transaction page' do
     visit root_path
     category = @user.categories.first
     find("a[href='#{category_url(category)}']").click
