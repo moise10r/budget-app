@@ -8,7 +8,6 @@ class CategoriesController < ApplicationController
 
   def show
     @deals = @category.deals.order(created_at: 'desc')
-    
   end
 
   def new
