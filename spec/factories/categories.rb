@@ -8,7 +8,6 @@ FactoryBot.define do
       transient do
         deals_count { 5 }
       end
-
       deals do
         Array.new(deals_count) { association(:deal) }
       end
