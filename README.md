@@ -4,7 +4,6 @@
 
 > A mobile web application where you can manage your budget
 
-![screenshot](./app_screenshot.png)
 
 A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
@@ -15,7 +14,6 @@ A mobile web application where you can manage your budget: you have a list of tr
 
 ## Live Link
 
-[Heroku](https://calm-stream-96524.herokuapp.com/)
 
 ## Getting Started
 
@@ -85,10 +83,11 @@ rake db:migrate VERSION=0
 
 ## Authors
 
-👤 **Usman**
+👤 **NGANULO RUSHANIKA Moise**
 
-- GitHub: [@usmansbk](https://github.com/usmansbk)
-- LinkedIn: [Usman Suleiman Babakolo](https://linkedin.com/in/usmansbk)
+- GitHub: [@githubhandle](https://github.com/moise10r)
+- Twitter: [@twitterhandle](https://twitter.com/MRushanika)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nganulo-rushanika-mo%C3%AFse-626139197/)
 
 ## 🤝 Contributing
 
