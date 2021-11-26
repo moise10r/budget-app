@@ -15,7 +15,7 @@ RSpec.feature 'Signin', type: :feature do
     expect(page).to have_content 'Signed in successfully.'
   end
 
-  scenario 'Signing in with invalid credentials' do
+  scenario 'Signing in with  invalid credentials' do
     visit new_user_session_path
     within 'form' do
       fill_in 'Email', with: @user.email
