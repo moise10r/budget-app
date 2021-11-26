@@ -9,7 +9,7 @@ RSpec.feature 'NewTransactions', type: :feature do
 
   given(:deal) { FactoryBot.build(:deal) }
 
-  scenario 'Creating a transaction with valid attributes' do
+  scenario 'Creating a transaction  with valid attributes' do
     visit new_deal_path
     within 'form' do
       fill_in 'Name', with: deal.name
