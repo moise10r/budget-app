@@ -20,7 +20,7 @@ RSpec.feature 'NewTransactions', type: :feature do
     expect(page).to have_current_path category_path(@category)
   end
 
-  scenario 'Creating a transaction with invalid attributes' do
+  scenario 'Creating a transaction  with invalid attributes' do
     visit new_deal_path
     within 'form' do
       fill_in 'Name', with: deal.name
