@@ -25,7 +25,7 @@ RSpec.describe Category, type: :model do
     end
   end
 
-  describe 'association' do
+  describe 'association ' do
     context 'belong-to user' do
       subject { FactoryBot.build :category }
 
