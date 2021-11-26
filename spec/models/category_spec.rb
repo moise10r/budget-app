@@ -9,7 +9,7 @@ RSpec.describe Category, type: :model do
       expect(subject).to_not be_valid
     end
 
-    it 'should not have an empty name' do
+    it 'should not  have an empty name' do
       subject.name = ' '
       expect(subject).to_not be_valid
     end
@@ -25,7 +25,7 @@ RSpec.describe Category, type: :model do
     end
   end
 
-  describe 'association' do
+  describe 'association ' do
     context 'belong-to user' do
       subject { FactoryBot.build :category }
 
