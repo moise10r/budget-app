@@ -82,7 +82,7 @@ rails g scaffold_controller model
 rake db:migrate VERSION=0
 ```
 
-## Authors
+## Author
 
 👤 **NGANULO RUSHANIKA Moise**
 
